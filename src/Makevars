@@ -1,0 +1,5 @@
+
+## We need the header in inst/include, and this define
+##   -DDEBUG_ASSERT_DISABLE
+## would turn things off, but we want it on by default
+PKG_CPPFLAGS = -I../inst/include/ 

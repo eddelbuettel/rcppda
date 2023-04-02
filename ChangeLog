@@ -1,0 +1,5 @@
+2016-11-30  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/include/debug_assert.hpp: Altered to allow exceptions (to
+	return to R) and print via REprintf() through R
+
