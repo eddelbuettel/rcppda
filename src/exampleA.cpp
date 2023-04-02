@@ -7,8 +7,9 @@
 
 // tag type that defines a module 
 struct module_a
-: debug_assert::default_handler, // it uses the default handler
-  debug_assert::set_level<MODULE_A_LEVEL> // and this level
+: debug_assert::default_handler, 		// it uses the default handler
+  debug_assert::set_level<MODULE_A_LEVEL>, 	// and this level
+  debug_assert::allow_exception                 // and allows throws -- important for R use
 {};
 
 double d = 4;

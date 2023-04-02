@@ -2,7 +2,7 @@ Package: RcppDA
 Type: Package
 Title: 'Rcpp' Bindings for 'Debug_Assert'
 Version: 0.0.1
-Date: 2016-11-30
+Date: 2023-04-02
 Author: Dirk Eddelbuettel
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: The single-header library 'Debug_Assert' offers a
